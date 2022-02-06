@@ -1,15 +1,17 @@
 import React,{Component} from "react";
 import Container from "../../node_modules/react-bootstrap/Container";
-import IndexS1 from "../components/index-s1";
+import BlogS1 from "../components/blog-s1";
+import BlogS2 from "../components/blog-s2";
 
-class Home extends Component{
+class Blog extends Component{
     render(){
         return(        
             <Container fluid className="minh-footer-adj p-0">
-                <IndexS1/>
+                <BlogS1/>
+                <BlogS2/>
             </Container>    
         );
     }
 }
 
-export default Home;
+export default Blog;
